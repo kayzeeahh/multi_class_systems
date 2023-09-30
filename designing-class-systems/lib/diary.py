@@ -25,5 +25,5 @@ class DiaryEntry():
         self.content = content
 
     def content_length(self):
-        return len(self.content)
+        return len(self.content.split())
 
